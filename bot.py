@@ -295,6 +295,7 @@ class PowerfulVideoBot:
         self.base_opts = {
             'quiet': True,
             'no_warnings': True,
+            'cookiefile': 'cookies.txt',
             'extract_flat': False,
             'writethumbnail': False,
             'writeinfojson': False,
